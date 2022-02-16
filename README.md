@@ -1,8 +1,8 @@
-# VTEX Scrollto
+# VTEX justDiv
 
 ## Description
 
-VTEX Scrollto is a handy little app to navigate to **any** element on the current page..
+VTEX justDiv is a handy little app to navigate to **any** element on the current page..
 
 :loudspeaker: **Disclaimer:** Don't fork this project; use, contribute, or open issue with your feature request.
 
@@ -18,7 +18,7 @@ To use this app, you need to import in your dependencies on `manifest.json`.
 
 ```json
   "dependencies": {
-    "vtex.scrollto": "0.x"
+    "vtex.justDiv": "0.x"
   }
 ```
 
@@ -32,7 +32,7 @@ You can also enable a click on the target element prior to scrolling to it.
 You can set all required parameters as a prop
 
 ```json
-"scrollto#one": {
+"justDiv#one": {
 		"props": {
 			"target": ".vtex-tab-layout-0-x-listContainer.vtex-tab-layout-0-x-listContainer--pdp-tab-list button",
 			"index": 1,
@@ -57,8 +57,8 @@ You can set all required parameters as a prop
 The following CSS handles can be used for styling:
 
 ```js
-  'scrollToContainer'
-  'scrollToLink'
+  'justDivContainer'
+  'justDivLink'
 ```
 
 

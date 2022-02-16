@@ -1,5 +1,6 @@
 {
-  "scrollto": { 
-    "component": "ScrollTo"
+  "just-a-div": { 
+    "component": "justDiv",
+    "composition": "children" 
   }
 }

@@ -1,9 +1,9 @@
 {
   "vendor": "vtex",
-  "name": "scrollto",
-  "version": "0.1.0",
-  "title": "VTEX Scrollto",
-  "description": "Little handy link component that allows deeplinking into any class and scroll to it on interaction. Optionally, you can also make the app click the element. This is useful if you want to scroll to a content hidden in a tab. ",
+  "name": "just-a-div",
+  "version": "0.0.1",
+  "title": "VTEX Just-a-DIV",
+  "description": "Sometimes life gives you plenty of lemons. At times it is needed to put them in a box.",
   "defaultLocale": "en-EN",
   "builders": {
     "messages": "1.x",
