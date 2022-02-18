@@ -17,12 +17,17 @@ That's why I've built the most useless but yet handy app in VTEX.
 
 
 ## Usage
+First, install the app via VTEX Toolbelt. 
+
+```bash
+    vtex install vtex.just-a-div@0.x
+```
 
 To use this app, you need to import in your dependencies on `manifest.json`.
 
 ```json
   "dependencies": {
-    "vtex.justDiv": "0.x"
+    "vtex.just-a-div": "0.x"
   }
 ```
 
