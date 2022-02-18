@@ -34,11 +34,13 @@ Whenever you need to wrap something in place without adding functionality on top
 The app only supports the very basics: 
 * composition of children
 * Block classes
+* **NEW** - YES! The ID makes sense. Now you have it! Feel free to drop IDs starting at version 0.2.0 via the prop "htmlId"
 
 ```json
 "just-a-div#aroundthelinks": {
   "props": {
-    "blockClass": "linkWrapper"
+    "blockClass": "linkWrapper",
+    "htmlId": "look-mum-i-am-unique"
   },
   "children":[
 	"content#1",

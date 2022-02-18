@@ -3,7 +3,8 @@ import React from 'react'
 import { useCssHandles } from 'vtex.css-handles'
 
 interface justDivProps {
-  blockClass?: string
+  blockClass?: string,
+  htmlId?: string
 
 }
 
@@ -14,8 +15,8 @@ const CSS_HANDLES = [
 const justDiv: StorefrontFunctionComponent<justDivProps> = (
   { 
     children,
-    blockClass=""
-    
+    blockClass="",
+    htmlId
   }
   
   ) => {
@@ -23,7 +24,7 @@ const justDiv: StorefrontFunctionComponent<justDivProps> = (
   const { handles } = useCssHandles(CSS_HANDLES, blockClass);
   
 
-  return ( <div className={handles.justDiv}>
+  return ( <div className={handles.justDiv} id={htmlId}>
     {children}
   </div> )
 }
