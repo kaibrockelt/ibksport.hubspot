@@ -2,7 +2,7 @@
 
 ## Description
 
-When live gives you plenty of lemons, you better put them in a box to keep them organized.
+When life gives you plenty of lemons, you better put them in a box to keep them organized.
 The same can happen in development. Sometimes you just need a plain-stupid-simple wrapper div to get things going. 
 That's why I've built the most useless but yet handy app in VTEX.
 
