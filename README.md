@@ -40,6 +40,7 @@ The app only supports the very basics:
 * composition of children
 * Block classes
 * **NEW** - YES! The ID makes sense. Now you have it! Feel free to drop IDs starting at version 0.2.0 via the prop "htmlId"
+* **NEW** - You are now able to edit the `"htmlId"` prop from Site Editor
 
 ```json
 "just-a-div#aroundthelinks": {

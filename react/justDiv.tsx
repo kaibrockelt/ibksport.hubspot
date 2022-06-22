@@ -34,7 +34,15 @@ const justDiv: StorefrontFunctionComponent<justDivProps> = (
 justDiv.schema = {
   title: 'editor.field.title',
   description: 'editor.field.description',
-  type: 'object', 
+  type: 'object',
+  properties: {
+    htmlId: {
+       title: 'Html Id',
+       description: 'HTML Id Attribute of justDiv',
+       type: 'string',
+       default: null,
+     },
+ },
 }
 
 export default justDiv
