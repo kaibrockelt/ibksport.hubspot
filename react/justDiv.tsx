@@ -2,13 +2,8 @@ import React from 'react'
 
 
 
-interface justDivProps {
- 
-}
+const justDiv: StorefrontFunctionComponent<any> = (
 
-
-const justDiv: StorefrontFunctionComponent<justDivProps> = (
-  
   ) => {
 
   

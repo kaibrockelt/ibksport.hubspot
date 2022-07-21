@@ -1,6 +1,6 @@
 {
   "hubspot": { 
     "component": "justDiv",
-    "composition": "children" 
+    "composition": "blocks" 
   }
 }
