@@ -1,48 +1,25 @@
 import React from 'react'
 
-import { useCssHandles } from 'vtex.css-handles'
+
 
 interface justDivProps {
-  blockClass?: string,
-  htmlId?: string
-
+ 
 }
 
-const CSS_HANDLES = [
-  'justDiv',
-] as const;
 
 const justDiv: StorefrontFunctionComponent<justDivProps> = (
-  { 
-    children,
-    blockClass="",
-    htmlId
-  }
   
   ) => {
 
-  const { handles } = useCssHandles(CSS_HANDLES, blockClass);
   
-
-  return ( <div className={handles.justDiv} id={htmlId}>
-    {children}
-  </div> )
+const thedom='<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script><script> hbspt.forms.create({ region: "na1", portalId: "4406968", formId: "843a1811-6b5a-4118-9a51-56a40c653cb0" });</script>'
+  return ( 
+    <div className="hubspotcontainer"
+      dangerouslySetInnerHTML={{ __html: thedom }} 
+    />
+  )
 }
 
-
-//Stuff for the site editor. Might not need it.
-justDiv.schema = {
-  title: 'editor.field.title',
-  description: 'editor.field.description',
-  type: 'object',
-  properties: {
-    htmlId: {
-       title: 'Html Id',
-       description: 'HTML Id Attribute of justDiv',
-       type: 'string',
-       default: null,
-     },
- },
-}
 
 export default justDiv
+ 

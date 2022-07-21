@@ -1,5 +1,5 @@
 {
-  "just-a-div": { 
+  "hubspot": { 
     "component": "justDiv",
     "composition": "children" 
   }
