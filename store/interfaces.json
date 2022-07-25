@@ -1,6 +1,11 @@
 {
   "hubspot": { 
-    "component": "justDiv",
+    "component": "mainform",
+    "composition": "blocks" 
+  },
+  "hubspotnewsletter": { 
+    "component": "newsletterform",
     "composition": "blocks" 
   }
+  
 }
